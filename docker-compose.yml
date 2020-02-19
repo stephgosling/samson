@@ -9,4 +9,5 @@ services:
     environment:
       DATABASE_URL: "sqlite3:///app/db/development.sqlite3"
       RAILS_LOG_TO_STDOUT: 1
+      PRECOMPILE: 1
     command: ["./script/docker_dev_server"]
